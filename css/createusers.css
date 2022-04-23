@@ -1,0 +1,37 @@
+@import 'nav.css';
+.create_users {
+  display: flex;
+}
+.dashboard_navigations {
+  width: 40%;
+}
+.create_users_contain {
+  width: 60%;
+  background-color: #e3e8ea;
+}
+.create_users_contents_h1 {
+  background-color: #002147;
+  color: white;
+}
+.create_users_contents {
+  margin: 30px;
+  background-color: white;
+}
+form {
+  width: 90%;
+  margin: auto;
+  font-size: 30px;
+}
+input {
+  width: 90%;
+  height: 7vh;
+}
+
+button {
+  border: none;
+  background-color: #26a69a;
+  width: 90px;
+  height: 50px;
+  margin: 20px 0;
+  color: white;
+}

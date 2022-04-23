@@ -1,0 +1,47 @@
+@import 'nav.css';
+.user_details {
+  display: flex;
+}
+.dashboard_navigations {
+  width: 40%;
+}
+.user_details_contain {
+  width: 60%;
+  background-color: #e3e8ea;
+}
+.user_details_contents_h1 {
+  background-color: #002147;
+  color: white;
+}
+.user_details_contents {
+  margin: 30px;
+  background-color: white;
+}
+table,
+th,
+td {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+@media (max-width: 790px) {
+  table,
+  th,
+  td {
+    width: 100%;
+    font-size: 15px;
+    padding: 5px;
+  }
+}
+@media (max-width: 600px) {
+  table,
+  th,
+  td {
+    width: 100%;
+    font-size: 10px;
+    padding: 5px;
+  }
+}

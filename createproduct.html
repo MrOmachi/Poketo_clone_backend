@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Products</title>
+    <link rel="stylesheet" href="./css/createproduct.css" />
+  </head>
+  <body>
+    <nav class="navigationBar">
+      <!-- ---FEEDING FROM NAV JS--- -->
+    </nav>
+
+    <div class="create_product">
+      <div class="dashboard_navigations">
+        <!-- ---FEEDING FROM NAV JS--- -->
+      </div>
+      <div class="create_product_contain">
+        <div class="create_product_contents">
+          <div class="create_product_contents_h1">
+            <h1>Create Products</h1>
+          </div>
+          <div class="create_product_form">
+            <form>
+              <label for="name">Name</label><br />
+              <input
+                type="text"
+                placeholder="Product Name"
+                name="name"
+                class="name"
+              />
+              <br /><br />
+              <label for="description">Description</label><br />
+              <input
+                type="text"
+                placeholder="Product Description"
+                name="description"
+                class="description"
+              /><br /><br />
+              <label for="price"> Price</label><br />
+              <input
+                type="number"
+                name="price"
+                class="price"
+                placeholder="Product Price"
+              /><br /><br />
+              <label for="quantity"> Quantity</label><br />
+              <input
+                type="number"
+                name="quantity"
+                class="quantity"
+                placeholder="Product Quantity"
+              /><br /><br />
+              <label for="quantity"> Product Image </label><br />
+              <img src="./img/users.jpg" alt="" />
+              <br />
+              <label for="category"> Category</label><br />
+              <input
+                type="text"
+                name="category"
+                class="category"
+                placeholder="Product Category"
+              /><br />
+              <button>SUBMIT</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/nav.js"></script>
+  </body>
+</html>

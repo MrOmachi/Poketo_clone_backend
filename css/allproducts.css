@@ -1,0 +1,39 @@
+@import 'nav.css';
+
+.allproducts {
+  display: flex;
+}
+.dashboard_navigations {
+  width: 40%;
+}
+.allproducts_contain {
+  width: 60%;
+  background-color: #e3e8ea;
+}
+.allproducts_contents {
+  margin: 30px;
+  background-color: white;
+}
+.allproducts_contents_cards .cards {
+  border: solid 2px grey;
+  border-radius: 10px;
+  background-color: burlywood;
+  height: 150px;
+  padding: 10px;
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.allproducts_contents_cards .cards img {
+  width: 40px;
+}
+.cards_details {
+  text-align: left;
+}
+
+.allproducts_contents_cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 5px;
+}
